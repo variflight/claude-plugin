@@ -11,6 +11,7 @@
   "repository": "https://github.com/variflight/claude-plugin",
   "documentationUrl": "https://ai.variflight.com/docs/aviation",
   "privacyPolicyUrl": "https://ai.variflight.com/privacy-policy",
+  "termsOfServiceUrl": "https://ai.variflight.com/terms",
   "license": "MIT",
   "keywords": [
     "flight",
