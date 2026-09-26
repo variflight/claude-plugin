@@ -26,6 +26,14 @@ The plugin connects the **variflight-aviation** MCP server.
 - **Flight numbers** include the airline code, such as `MU5100` or `CA1501`.
 - **Airport codes** are IATA three-letter codes (`PEK`, `PKX`, `SHA`, `PVG`). **City codes** are also three letters (`BJS` for Beijing, `SHA` for Shanghai). For `searchFlightsByDepArr`, use `depcity`/`arrcity` when the user names a city with several airports, and `dep`/`arr` when they name an airport.
 
+## Result size
+
+`searchFlightsByDepArr` and `getFlightTransferInfo` return the first 20 results with core fields only. The response includes `total`, and `next_offset` when more results exist.
+
+- If the answer is in the first page, stop there.
+- To see more, call the same tool again with `offset` set to `next_offset`. Each page is a separate billed call.
+- Pass `detail: "full"` only when the user needs a field the summary leaves out, such as check-in counters, baggage belt or weather at the airports, and combine it with a small `limit`.
+
 ## Cost
 
 Every tool except `getTodayDate` uses credits on the user's VariFlight account. Make the one call the question needs, reuse earlier results in the conversation, and don't loop over dates or cities unless the user asks for that comparison.

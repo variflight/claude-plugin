@@ -2,7 +2,7 @@
   "mcpServers": {
     "variflight-aviation": {
       "type": "http",
-      "url": "https://ai.variflight.com/servers/aviation/mcp"
+      "url": "https://ai.variflight.com/servers/aviation/mcp?profile=compact"
     }
   }
 }
