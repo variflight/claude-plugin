@@ -8,6 +8,8 @@
     "url": "https://ai.variflight.com"
   },
   "homepage": "https://ai.variflight.com",
+  "repository": "https://github.com/variflight/claude-plugin",
+  "documentationUrl": "https://ai.variflight.com/docs/aviation",
   "privacyPolicyUrl": "https://ai.variflight.com/privacy-policy",
   "license": "MIT",
   "keywords": [
