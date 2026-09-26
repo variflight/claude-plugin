@@ -27,7 +27,7 @@ Ask Claude about flights and get answers from VariFlight's live aviation data: f
 
 - The plugin sends only the query parameters of each tool call (flight numbers, airport or city codes, dates, aircraft registrations) to VariFlight's servers at `https://ai.variflight.com`. It sends no other conversation content, and it runs no local code, hooks or scripts.
 - Requests are tied to your VariFlight account through OAuth. Every tool except `getTodayDate` uses credits from that account.
-- VariFlight's privacy policy and terms are published at [ai.variflight.com](https://ai.variflight.com).
+- Privacy policy: [ai.variflight.com/privacy-policy](https://ai.variflight.com/privacy-policy).
 
 ## Support
 

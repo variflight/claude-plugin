@@ -8,6 +8,7 @@
     "url": "https://ai.variflight.com"
   },
   "homepage": "https://ai.variflight.com",
+  "privacyPolicyUrl": "https://ai.variflight.com/privacy-policy",
   "license": "MIT",
   "keywords": [
     "flight",
